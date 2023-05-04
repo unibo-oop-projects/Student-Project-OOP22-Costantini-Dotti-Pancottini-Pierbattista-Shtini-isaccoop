@@ -36,7 +36,7 @@ public final class GameLoopImpl implements GameLoop {
 
      * The warning is suppressed because we need level reference in this class, the level is immutable.
      */
-    @SuppressFBWarnings("EI_EXPOSE_REP")
+   
     public GameLoopImpl(final Scene view, final Level level, final ActionController actionController) {
         this.view = view;
         this.level = level;
@@ -126,7 +126,7 @@ public final class GameLoopImpl implements GameLoop {
 
     @Override
     //Warning suppressed because we need to expose level state to the ActionComponent (level is immutable)
-    @SuppressFBWarnings("EI_EXPOSE_REP")
+   
     public Level getLevel() {
         return this.level;
     }

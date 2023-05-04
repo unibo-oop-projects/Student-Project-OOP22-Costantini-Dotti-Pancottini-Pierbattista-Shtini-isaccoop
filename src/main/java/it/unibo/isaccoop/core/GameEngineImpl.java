@@ -68,7 +68,7 @@ public final class GameEngineImpl implements GameEngine {
 
     @Override
     //Warning suppressed because we need the action controller state into the game loop
-    @SuppressFBWarnings("EI_EXPOSE_REP")
+   
     public ActionControllerImpl getActionController() {
         return (ActionControllerImpl) this.actionController;
     }

@@ -8,7 +8,6 @@ import it.unibo.isaccoop.graphics.GraphicsComponent;
  * Warning suppressed because this class needs to be abstract,
  * it is a container for common graphics component factories behavior and state
  */
-@SuppressWarnings("PMD.AbstractClassWithoutAbstractMethod")
 public abstract class AbstractGraphicsComponentFactory {
 
     /**

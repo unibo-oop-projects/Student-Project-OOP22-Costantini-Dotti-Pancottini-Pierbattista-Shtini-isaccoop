@@ -23,7 +23,7 @@ public final class ShootingHitStrategy implements HitStrategy {
      *
      * The warning is suppressed because it is the client that defines the shooting strategy.
      * */
-    @SuppressFBWarnings("EI_EXPOSE_REP")
+   
     public ShootingHitStrategy(final Weapon weapon) {
         this.weapon = weapon;
     }

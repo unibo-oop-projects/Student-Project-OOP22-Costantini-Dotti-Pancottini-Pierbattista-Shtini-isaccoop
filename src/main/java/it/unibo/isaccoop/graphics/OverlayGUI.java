@@ -74,7 +74,7 @@ public class OverlayGUI extends JPanel {
      * The warning is suppressed because we need level reference in this Class.
      *
      */
-    @SuppressFBWarnings("EI_EXPOSE_REP")
+   
     public OverlayGUI(final Level level, final int roomWidth, final int minimapHeight) {
         this.lvl = level;
         final int proportion = 21;

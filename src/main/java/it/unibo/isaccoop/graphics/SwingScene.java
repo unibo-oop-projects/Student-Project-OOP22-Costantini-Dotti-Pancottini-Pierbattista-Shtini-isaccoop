@@ -48,7 +48,7 @@ public final class SwingScene implements Scene {
      * @param engine the {@link GameEngine}
      */
     //Warning suppressed because we need the current level instance state (level is immutable)
-    @SuppressFBWarnings("EI_EXPOSE_REP")
+   
     public SwingScene(final Level gameState, final GameEngine engine) {
 
         final JPanel containerPanel = new JPanel(new BorderLayout());
